@@ -15,6 +15,8 @@
 | Component | `com.apple.driver.AppleSEPKeyStore` |
 | Patched | iOS 26.4 / macOS 26.4 |
 
+**Note:** Apple may have gradually patched this between 26.2.1 - 26.4, so it may not work on intermediate versions.
+
 ## Warning
 
 **This code WILL crash your device.** Running these tools causes an immediate kernel panic.
