@@ -1,0 +1,6 @@
+.DS_Store
+.claude/
+aks-uaf-race
+*.xcuserstate
+xcuserdata/
+DerivedData/
