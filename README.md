@@ -1,6 +1,19 @@
-# AppleSEPKeyStore Use-After-Free Panic
+# CVE-2026-20687: AppleSEPKeyStore Use-After-Free
 
-Author: [@zeroxjf](https://x.com/zeroxjf)
+**CVE-2026-20687** | Author: [Johnny Franks (@zeroxjf)](https://x.com/zeroxjf)
+
+> **Impact:** An app may be able to cause unexpected system termination or write kernel memory
+>
+> **Description:** A use after free issue was addressed with improved memory management.
+
+## Target Versions
+
+| | |
+|--|--|
+| iOS | 26.1 - 26.2 (tested) |
+| macOS | 26.1 - 26.2 (tested) |
+| Component | `com.apple.driver.AppleSEPKeyStore` |
+| Patched | iOS 26.4 / macOS 26.4 |
 
 ## Warning
 
@@ -11,15 +24,6 @@ Author: [@zeroxjf](https://x.com/zeroxjf)
 - Repeated panics may cause filesystem corruption
 - Not responsible for boot loops, data loss, or bricked devices
 - For security research purposes only
-
-## Target
-
-| | |
-|--|--|
-| iOS | 26.1 - 26.2 |
-| macOS | 26.1 - 26.2 |
-| Component | `com.apple.driver.AppleSEPKeyStore` |
-| Kernel | Darwin 25.1.0 (xnu-12377.42.6) |
 
 ## Vulnerability
 
