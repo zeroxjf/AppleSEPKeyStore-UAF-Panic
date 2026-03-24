@@ -1,6 +1,6 @@
 # CVE-2026-20687: AppleSEPKeyStore Use-After-Free
 
-**CVE-2026-20687** | Author: [Johnny Franks (@zeroxjf)](https://x.com/zeroxjf)
+**[CVE-2026-20687](https://support.apple.com/en-us/126792)** | Author: [Johnny Franks (@zeroxjf)](https://x.com/zeroxjf)
 
 > **Impact:** An app may be able to cause unexpected system termination or write kernel memory
 >
