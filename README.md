@@ -1,6 +1,6 @@
 # CVE-2026-20637: AppleSEPKeyStore Use-After-Free
 
-**[CVE-2026-20637](https://support.apple.com/en-us/126353)** | Author: [Johnny Franks (@zeroxjf)](https://x.com/zeroxjf)
+**[CVE-2026-20637](https://support.apple.com/en-us/126346)** | Author: [Johnny Franks (@zeroxjf)](https://x.com/zeroxjf)
 
 > **Component:** AppleKeyStore
 >
@@ -8,7 +8,7 @@
 >
 > **Description:** A use after free issue was addressed with improved memory management.
 >
-> *— [Apple Security Content, visionOS 26.3](https://support.apple.com/en-us/126353)*
+> *— [Apple Security Content, iOS 26.3 and iPadOS 26.3](https://support.apple.com/en-us/126346)*
 
 ## Target Versions
 
@@ -17,9 +17,9 @@
 | iOS | 26.1 - 26.2 (tested) |
 | macOS | 26.1 - 26.2 (tested) |
 | Component | `com.apple.driver.AppleSEPKeyStore` |
-| Patched | visionOS 26.3 / iOS 26.4 / macOS 26.4 |
+| Patched | iOS 26.3 / iPadOS 26.3 |
 
-**Note:** Apple may have gradually patched this between 26.2.1 - 26.4, so it may not work on intermediate versions.
+**Note:** Apple may have gradually patched this between 26.2.1 - 26.3, so it may not work on intermediate versions.
 
 ## Warning
 
