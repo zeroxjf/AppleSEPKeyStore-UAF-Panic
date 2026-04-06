@@ -2,9 +2,13 @@
 
 **[CVE-2026-20637](https://support.apple.com/en-us/126353)** | Author: [Johnny Franks (@zeroxjf)](https://x.com/zeroxjf)
 
-> **Impact:** An app may be able to cause unexpected system termination or write kernel memory
+> **Component:** AppleKeyStore
+>
+> **Impact:** An app may be able to cause unexpected system termination
 >
 > **Description:** A use after free issue was addressed with improved memory management.
+>
+> *— [Apple Security Content, visionOS 26.3](https://support.apple.com/en-us/126353)*
 
 ## Target Versions
 
@@ -13,7 +17,7 @@
 | iOS | 26.1 - 26.2 (tested) |
 | macOS | 26.1 - 26.2 (tested) |
 | Component | `com.apple.driver.AppleSEPKeyStore` |
-| Patched | iOS 26.4 / macOS 26.4 |
+| Patched | visionOS 26.3 / iOS 26.4 / macOS 26.4 |
 
 **Note:** Apple may have gradually patched this between 26.2.1 - 26.4, so it may not work on intermediate versions.
 
